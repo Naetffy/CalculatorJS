@@ -38,7 +38,7 @@ class App extends Component {
 
     try {
       this.setState({
-        result: (eval(checkResult) || "") + ""
+        result: ""
       })
     } catch(e) {
       this.setState({
