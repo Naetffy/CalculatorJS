@@ -38,7 +38,7 @@ class App extends Component {
 
     try {
       this.setState({
-        result: ""
+        result: checkResult
       })
     } catch(e) {
       this.setState({
